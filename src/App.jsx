@@ -40,7 +40,7 @@ function App() {
       <h2>Path to success</h2>
       <h4>Do these tasks daily and you will be good soon</h4>
       <div><button onClick={onAddTaskClick}>+ Add Task</button></div>
-      {tasks.map((task, index) => {return <Task key={index} id={task.id} onDelete={onDeleteClick}></Task>})}
+      {tasks.map((task, index) => {return <Task key={task.id} id={task.id} onDelete={onDeleteClick}></Task>})}
     </>
   )
 }
