@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.deleteButton:hover {
+  background-color:hsl(1, 92%, 67%);
+  transition:0.2s;
+}
+
+.task {
+  background-color: hsl(251, 90%, 48%);
+  display: inline-block;
+  min-inline-size: 120px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+}
+.task:hover {
+  background-color:hsl(250, 100%, 2%);
+  transition:0.2s;
+}
+
+.taskDone {
+  background-color:hsl(0, 1%, 30%);
+}
+
+.taskDone:hover {
+  background-color:hsl(0, 4%, 5%);
+  transition:0.2s;
+}
+
+.Accordion-item-title {
+  background-color: hsl(229, 90%, 52%);
+  display: inline-block;
+  min-inline-size: 120px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+}
+
+.Accordion-item-icon {
+  background-color: hsl(229, 90%, 52%);
+  display: inline-block;
+  min-inline-size: 5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+}
+
+.Accordion-item-content {
+  background-color: hsl(229, 94%, 68%);
+  display: inline-block;
+  min-inline-size: 5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+}
